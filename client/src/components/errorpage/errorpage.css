@@ -1,0 +1,35 @@
+.errorpage {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  height: 80%;
+  font-family: montserrat, sans-serif;
+}
+
+.errorpage > .h1 {
+  position: absolute;
+  top: 90%;
+  left: 26%;
+  color: rgb(0, 0, 0);
+  font-size: 40px;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+img {
+  padding: 65px;
+  width: 50%;
+  height: 90%;
+  position: absolute;
+  left: 45%;
+}
+
+.lost {
+  position: relative;
+  font-size: 60px;
+  left: -30%;
+  top: -40%;
+  font-weight: 600;
+}

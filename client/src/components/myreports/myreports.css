@@ -1,0 +1,62 @@
+.home {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+.middlePortion {
+  position: relative;
+  height: 600px;
+  width: 100%;
+}
+
+.serviceBtn {
+  display: flexbox;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 25px;
+  position: relative;
+  top: 15%;
+  left: 10%;
+  width: 210px;
+  height: 120px;
+  color: whitesmoke;
+  background-color: green;
+  font-size: 1.5rem;
+  padding: 18px 50px;
+  font-style: italic;
+  font-weight: 800;
+  border-radius: 40px;
+  border-color: rgb(55, 177, 24) rgb(86, 230, 43);
+}
+
+.serviceBtn:hover {
+  color: black;
+  background-color: antiquewhite;
+  box-shadow: 2px 2px 8px 2px black;
+  border-color: transparent;
+}
+
+.errorLogin {
+  position: absolute;
+  left: 20%;
+  top: 10%;
+  background-color: #ffcfdf;
+  background-image: linear-gradient(315deg, #ffcfdf 0%, #b0f3f1 74%);
+  width: 60%;
+  height: 80%;
+  box-shadow: 5px 5px 2px 2px rgb(133, 130, 130);
+  border-radius: 40px;
+}
+
+.errorLogin > .textDisplay {
+  padding: 40px 230px;
+  font-size: 1.6rem;
+  font-weight: 900;
+  color: rgb(0, 0, 0);
+}
+.errorLogin > .imgLogin {
+  position: absolute;
+  top: 10%;
+  width: 90%;
+  height: 90%;
+}

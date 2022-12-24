@@ -1,0 +1,16 @@
+.home {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+.middlePortion {
+  position: absolute;
+  height: 1800px;
+  width: 100%;
+}
+
+.imgw {
+  position: absolute;
+  width: 100%;
+  left: -5%;
+}

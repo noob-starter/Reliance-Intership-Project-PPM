@@ -1,0 +1,314 @@
+body {
+  background-color: whitesmoke;
+}
+.myContainer {
+  position: relative;
+  top: -44.7%;
+  width: 100%;
+}
+
+.myContainer > .myTable {
+  width: 80%;
+  position: absolute;
+  left: 10%;
+  margin-top: 80px;
+  background-color: transparent;
+  padding: 20px;
+}
+
+h1 {
+  color: black;
+  font-size: 2rem;
+  font-weight: 900;
+}
+tbody,
+thead {
+  background-color: rgb(28, 145, 28);
+  font-weight: 900;
+  height: 60px;
+  color: whitesmoke;
+  font-size: 1rem;
+}
+thead {
+  font-size: 1.6rem;
+}
+td,
+th {
+  width: 100px;
+  justify-content: center;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  text-align: center;
+}
+
+.pagination {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.lastR {
+  background-color: whitesmoke;
+}
+.myAdd {
+  width: 50%;
+  margin: "5% 0 0 25%";
+  padding: 40px;
+  background-color: rgb(144, 226, 144);
+  border-radius: 20px;
+  box-shadow: 1px 1px 5px 5px rgb(141, 138, 138);
+}
+
+.myAddX {
+  position: relative;
+  top: 16%;
+}
+
+.showErr {
+  font-size: 0.8rem;
+  font-weight: 900;
+  position: relative;
+  color: rgb(236, 57, 57);
+  top: 20%;
+  left: 30%;
+}
+.showErr:nth-child(2) {
+  top: 30%;
+}
+.showErr:nth-child(3) {
+  top: 35%;
+}
+.showErr:nth-child(4) {
+  top: 30%;
+}
+
+.btn1 {
+  align-self: center;
+  width: 250px;
+  height: 50px;
+  border-radius: 20px;
+  background-color: rgb(61, 211, 23);
+  font-weight: 900;
+  font-size: 1.3rem;
+  border-color: antiquewhite;
+}
+input,
+.searchItem {
+  outline: 0px;
+  border-color: transparent;
+  margin: 10px;
+  height: 30px;
+  border-radius: 30px;
+  width: 60%;
+  align-self: center;
+  box-shadow: 2px 2px 2px 2px rgb(128, 125, 125);
+  padding: -2px;
+  text-align: center;
+}
+
+input:read-only {
+  background-color: rgb(198, 184, 184);
+}
+.searchItem {
+  position: relative;
+  width: 12%;
+  height: 30px;
+  top: 40px;
+  left: 50%;
+}
+.myBtn,
+.myBtn2,
+.myBack,
+.myBack2,
+.myedit,
+.pageBtn,
+.expxl,
+.exppdf {
+  position: relative;
+  left: 12%;
+  top: 40px;
+  align-self: center;
+  width: 120px;
+  height: 50px;
+  border-radius: 20px;
+  border-color: antiquewhite;
+  font-weight: 900;
+  font-size: 1rem;
+  background-color: rgb(61, 211, 23);
+}
+
+.myBtn {
+  width: 180px;
+  left: 16%;
+}
+.myBtn2 {
+  left: -10%;
+  top: -35%;
+}
+
+.myBack {
+  left: -5%;
+  top: 40px;
+  height: 40px;
+  width: 100px;
+}
+.myBack2 {
+  left: -10%;
+  top: -35%;
+}
+.mybackx {
+  left: 5%;
+}
+.pageBtn,
+.expxl,
+.exppdf {
+  top: 0%;
+  left: 0%;
+  height: 30px;
+  width: 60px;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.expxl,
+.exppdf {
+  top: 40px;
+  left: 50%;
+  font-size: 1rem;
+  width: 80px;
+  height: 40px;
+}
+
+.exppdf {
+  left: 51%;
+}
+.myedit {
+  width: 70%;
+  height: 30px;
+  top: 0%;
+  left: 1%;
+}
+
+.dele {
+  width: 90%;
+}
+.myedit:last-child {
+  margin-top: 15px;
+}
+
+.myBtn:hover,
+.myedit:hover,
+.btn1:hover,
+.myBack:hover,
+.myBtn2:hover,
+.pageBtn:hover,
+.expxl:hover,
+.exppdf:hover {
+  transition: all 0.3s ease-out;
+  background: white;
+  color: black;
+  transition: 250ms;
+  box-shadow: 4px 4px 2px 2px rgb(92, 88, 88);
+}
+
+.box,
+.boxN {
+  position: relative;
+  left: 20%;
+}
+.boxN {
+  left: 0%;
+}
+select {
+  background-color: white;
+  border: thin solid rgb(2, 179, 31);
+  border-radius: 20px;
+  display: inline-block;
+  font: inherit;
+  width: 61%;
+  line-height: 1.5em;
+  padding: 0.5em 3.5em 0.5em 1em;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+select.classic {
+  background-image: linear-gradient(45deg, transparent 50%, rgb(8, 195, 70) 50%),
+    linear-gradient(135deg, rgb(61, 211, 23) 50%, transparent 50%),
+    linear-gradient(to right, rgb(145, 241, 172), rgb(145, 241, 172));
+  background-position: calc(100% - 20px) calc(1em + 2px),
+    calc(100% - 15px) calc(1em + 2px), 100% 0;
+  background-size: 5px 5px, 5px 5px, 2.5em 2.5em;
+  background-repeat: no-repeat;
+  padding-left: 40px;
+}
+
+select.classic:focus {
+  background-image: linear-gradient(45deg, white 50%, transparent 50%),
+    linear-gradient(135deg, transparent 50%, white 50%),
+    linear-gradient(to right, gray, gray);
+  background-position: calc(100% - 15px) 1em, calc(100% - 20px) 1em, 100% 0;
+  background-size: 5px 5px, 5px 5px, 2.5em 2.5em;
+  background-repeat: no-repeat;
+  border-color: grey;
+  outline: 0;
+}
+select.classic:hover {
+  box-shadow: 3px 3px 2px 2px gray;
+}
+option {
+  background-color: whitesmoke;
+}
+
+.wrap {
+  position: relative;
+  left: 20%;
+}
+.inp {
+  width: 40px;
+  height: 20px;
+  background-color: transparent;
+  box-shadow: none;
+}
+.h1E {
+  position: relative;
+  left: 22%;
+}
+
+.buttons {
+  background: transparent;
+  padding: 4px;
+  left: 20%;
+  border-radius: 3px;
+  position: relative;
+  width: fit-content;
+}
+
+.buttons input {
+  appearance: none;
+  cursor: pointer;
+  border-radius: 2px;
+  padding: 5px 10px;
+  width: 110px;
+  height: 30px;
+  background: #07b848;
+  color: #ececec;
+  font-size: 15px;
+  font-weight: 1000;
+  font-family: sans-serif;
+  transition: all 0.1s;
+}
+
+.buttons input::before {
+  content: attr(label);
+  text-align: center;
+}
+.buttons input:checked {
+  background: #058b09;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+  text-shadow: 0 1px 0px #808080;
+}
